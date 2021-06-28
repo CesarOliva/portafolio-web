@@ -438,13 +438,12 @@ header{
     header{
         .menu{
             ul{
+                display: flex;
+                justify-content: center;
                 li{
                     a{
                         padding: 10px;
-                        font-family: 'Poppins';
                         font-size: 15px;
-                        font-weight: 400;
-                        color: #000;
                     }
                 }
             }
@@ -489,6 +488,22 @@ header{
         }
     }
 }
+
+@media screen and (max-width: 428px) {
+    header{
+        .menu{
+            ul{
+                li{
+                    a{
+                        padding: 8px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    } 
+}
+
 @media screen and (max-height: 800px) {
     .contenido{
         .presentacion{
