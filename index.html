@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<head>
+    <!--Meta etiquetas-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de trabajos de desarrolador front-end y diseñador de interfaces">
+    <meta name="keywords" content="portafolio, trabajos, programador, programacion, paginas web, programador web, desarrolador front-end, diseñador de interfaces, UI/UX, diseñador, freelancer, diseño, monterrey">
+    <meta name="author" content="Cesar Oliva">
+    <!--Links-->
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="Javascript/jquery-3.6.0.min.js"></script>
+    <script src="Javascript/scroll.js"></script>
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+
+    <title>Portafolio desarrolador web - Cesar Oliva</title>
+
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+            <ul class="container">
+                <li>
+                    <a href="#" id="btn-sobre-mi">Sobre mi</a>
+                    <a href="#" id="btn-conocimientos">Conocimientos</a>
+                    <a href="#" id="btn-trabajos">Trabajos</a>
+                    <a href="#" id="btn-contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="skeleton" id="skeleton">
+
+        <div class="contenido container" id="contenido">
+            <div class="presentacion" id="presentacion">
+                <h2 class="nombre" id="nombre">{Cesar Oliva}</h2>
+                <h1 class="profesion" id="profesion">{<span class="typed"></span>}</h1>
+            </div>
+    
+        </div>
+        
+        <div class="contenido" style="background:#E9F0F2">
+            <div class="container">
+                <div class="sobre-mi row" id="sobre-mi">
+                    <section class="textos col-12 col-lg-6">
+                        <h3>Sobre mi</h3>
+                        <p>Soy Cesar Oliva, tengo 15 años y estoy en proceso de convertirme en Desarrollador front-end.
+                            <br> Me gusta aprender cosas nuevas y mejorar en las que he aprendido.</p>
+                    </section>
+                    <section class="foto col-12 col-lg-6">
+                        <img src="Imagenes/yo.jpg" alt="Mi fotografia" style="overflow: hidden;">
+                    </section>
+                </div>
+            </div>
+        </div>
+    
+        <div class="contenido container">
+            <div class="conocimientos" id="conocimientos">
+                <h3>Mis conocimientos</h3>
+                <section class="niveles row">
+                    <div class="experto">
+                        <div class="icono">
+                            <img src="Imagenes/experto.svg" alt="experto">
+                        </div>
+                        <p>Experto</p>
+                    </div>
+                    <div class="avanzado">
+                        <div class="icono">
+                            <img src="Imagenes/avanzado.svg" alt="avanzado">
+                        </div>
+                        <p>Avanzado</p>
+                    </div>
+                    <div class="intermedio">
+                        <div class="icono">
+                            <img src="Imagenes/intermedio.svg" alt="intermedio">
+                        </div>
+                        <p>Intermedio</p>
+                    </div>
+                    <div class="basico">
+                        <div class="icono">
+                            <img src="Imagenes/basico.svg" alt="basico">
+                        </div>
+                        <p>Basico</p>
+                    </div>
+                </section>
+    
+                <section class="knowledge row">
+                    <div class="lenguajes col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="titulo">
+                                    <div class="icono">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="nombre">
+                                        <p>Lenguajes</p>
+                                    </div>
+                                </div>
+                                <div class="tecnologias">
+                                    <div class="tecnologia html">
+                                        <div class="icono">
+                                            <img src="Imagenes/avanzado.svg" alt="avanzado">
+                                        </div>
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="tecnologia css">
+                                        <div class="icono">
+                                            <img src="Imagenes/avanzado.svg" alt="avanzado">
+                                        </div>
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="tecnologia javascript">
+                                        <div class="icono">
+                                            <img src="Imagenes/intermedio.svg" alt="avanzado">
+                                        </div>
+                                        <p>Javascript</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="frameworks col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="titulo">
+                                    <div class="icono">
+                                        <i class="fas fa-terminal"></i>
+                                    </div>
+                                    <div class="nombre">
+                                        <p>Frameworks y librerías</p>
+                                    </div>
+                                </div>
+                                <div class="tecnologias">
+                                    <div class="tecnologia sass">
+                                        <div class="icono">
+                                            <img src="Imagenes/avanzado.svg" alt="avanzado">
+                                        </div>
+                                        <p>SASS</p>
+                                    </div>
+                                    <div class="tecnologia bootstrap">
+                                        <div class="icono">
+                                            <img src="Imagenes/intermedio.svg" alt="avanzado">
+                                        </div>
+                                        <p>Bootstrap</p>
+                                    </div>
+                                    <div class="tecnologia jquery">
+                                        <div class="icono">
+                                            <img src="Imagenes/intermedio.svg" alt="avanzado">
+                                        </div>
+                                        <p>Jquery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="herramientas col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">                            
+                                <div class="titulo">
+                                    <div class="icono">
+                                        <i class="fas fa-code-branch"></i>
+                                    </div>
+                                    <div class="nombre">
+                                        <p>Herramientas</p>
+                                    </div>
+                                </div>
+                                <div class="tecnologias">
+                                    <div class="tecnologia git">
+                                        <div class="icono">
+                                            <img src="Imagenes/intermedio.svg" alt="avanzado">
+                                        </div>
+                                        <p>Git</p>
+                                    </div>
+                                    <div class="tecnologia github">
+                                        <div class="icono">
+                                            <img src="Imagenes/intermedio.svg" alt="avanzado">
+                                        </div>
+                                        <p>Github</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="diseño col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="titulo">
+                                    <div class="icono">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="nombre">
+                                        <p>Diseño</p>
+                                    </div>
+                                </div>
+                                <div class="tecnologias">
+                                    <div class="tecnologia XD">
+                                        <div class="icono">
+                                            <img src="Imagenes/avanzado.svg" alt="avanzado">
+                                        </div>
+                                        <p>Adobe XD</p>
+                                    </div>
+                                    <div class="tecnologia figma">
+                                        <div class="icono">
+                                            <img src="Imagenes/intermedio.svg" alt="avanzado">
+                                        </div>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div class="tecnologia photoshop">
+                                        <div class="icono">
+                                            <img src="Imagenes/intermedio.svg" alt="avanzado">
+                                        </div>
+                                        <p>Photoshop</p>
+                                    </div>
+                                    <div class="tecnologia responsive">
+                                        <div class="icono">
+                                            <img src="Imagenes/avanzado.svg" alt="avanzado">
+                                        </div>
+                                        <p>Diseño responsive</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="otras col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="titulo">
+                                    <div class="icono">
+                                        <i class="fas fa-server"></i>
+                                    </div>
+                                    <div class="nombre">
+                                        <p>Otras</p>
+                                    </div>
+                                </div>
+                                <div class="tecnologias">
+                                    <div class="tecnologia wordpress">
+                                        <div class="icono">
+                                            <img src="Imagenes/avanzado.svg" alt="avanzado">
+                                        </div>
+                                        <p>Wordpress</p>
+                                    </div>
+                                    <div class="tecnologia seo">
+                                        <div class="icono">
+                                            <img src="Imagenes/basico.svg" alt="avanzado">
+                                        </div>
+                                        <p>SEO</p>
+                                    </div>
+                                    <div class="tecnologia facebook-ads">
+                                        <div class="icono">
+                                            <img src="Imagenes/avanzado.svg" alt="avanzado">
+                                        </div>
+                                        <p>Facebook Ads</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="habilidades-blandas col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="titulo">
+                                    <div class="icono">
+                                        <i class="fas fa-stream"></i>
+                                    </div>
+                                    <div class="nombre">
+                                        <p>Habilidades Blandas</p>
+                                    </div>
+                                </div>
+                                <div class="tecnologias">
+                                    <div class="tecnologia adwords">
+                                        <div class="icono">
+                                            <img src="Imagenes/basico.svg" alt="avanzado">
+                                        </div>
+                                        <p>Google Adwords</p>
+                                    </div>
+                                    <div class="tecnologia analytics">
+                                        <div class="icono">
+                                            <img src="Imagenes/basico.svg" alt="avanzado">
+                                        </div>
+                                        <p>Google Analytics</p>
+                                    </div>
+                                    <div class="tecnologia tag-manager">
+                                        <div class="icono">
+                                            <img src="Imagenes/basico.svg" alt="avanzado">
+                                        </div>
+                                        <p>Google Tag Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    
+            <div class="trabajos" id="trabajos">
+                <h3>Mis trabajos</h3>
+                <section class="trabajos-hijo row">
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="Imagenes/1.-optica.jpg" alt="optica">
+                            <div class="hover">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                        </div>
+                        <div class="nombre">
+                            <p>Optica</p>
+                        </div>
+                    </div>
+                
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="Imagenes/2.-exitoysalud.jpg" alt="vida saludable">
+                            <div class="hover">
+                                <i class="fab fa-wordpress"></i>
+                                <i class="fab fa-elementor"></i>
+                            </div>
+                        </div>
+                        <div class="nombre">
+                            <p>Vida Saludable</p>
+                        </div>
+                    </div>
+                
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="Imagenes/3.-portafolio.jpg" alt="portafolio anterior">
+                            <div class="hover">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                        </div>
+                        <div class="nombre">
+                            <p>Portafolio</p>
+                        </div>
+                    </div>
+                
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="Imagenes/4.-cafe.jpg" alt="cafetería">
+                            <div class="hover">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-js-square"></i>
+    
+                            </div>
+                        </div>
+                        <div class="nombre">
+                            <p>Cafetería</p>
+                        </div>
+                    </div>
+                
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="Imagenes/5.-Startup.jpg" alt="startup">
+                            <div class="hover">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                        </div>
+                        <div class="nombre">
+                            <p>Startup</p>
+                        </div>
+                    </div>
+                
+                    <div class="trabajo">
+                        <div class="imagen">
+                            <img src="Imagenes/6.-Tienda.jpg" alt="tienda">
+                            <div class="hover">
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                        </div>
+                        <div class="nombre">
+                            <p>Tienda</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    
+            <div class="contacto" id="contacto">
+                <h3>Contacto</h3>
+                <div class="iconos">
+                    <div class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="gmail">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="contenido" style="background:#415e84">
+            <div class="container">
+                <footer class="row" id="footer">
+                    <div class="animacion">
+                        <p>{Cesar Oliva}</p>
+                    </div>
+                    <div class="derechos">
+                        <p>2021 Cesar Oliva ©</p>
+                    </div>
+                    <div class="volver">
+                        <p>volver al inicio</p>
+                        <a href="#" id="volver">
+                            <i class="fas fa-arrow-up"></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="Javascript/efectos.js"></script>
+
+</body>
+</html>
