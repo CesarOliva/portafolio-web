@@ -587,8 +587,8 @@ header .menu ul li a {
   .contenido .presentacion h1 {
     font-size: 30px;
   }
-  .contenido .sobre-mi img {
-    width: 400px;
+  .contenido .sobre-mi .foto img {
+    width: 300px;
     height: auto;
   }
   .contenido .contacto .iconos {
