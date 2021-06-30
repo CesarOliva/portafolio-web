@@ -43,7 +43,7 @@ $(document).ready(function(){
     })
 
     //medias
-    $(window).scroll(function(){
+    /*$(window).scroll(function(){
         var windowWidth = $(window).width();
 
         if (windowWidth > 485){
@@ -81,6 +81,6 @@ $(document).ready(function(){
             var contenido = document.getElementsByTagName('header')
             contenido.appendChild(nav)
         }
-    });
+    });*/
 
 })

@@ -268,9 +268,11 @@ header{
                 font-size: 50px;
                 border: 1px solid #000;
                 background: #1877f2;
-                color: #fff;
                 margin-right: 50px;
                 margin-left: 50px;
+                a{
+                    color: #fff;
+                }
             }
 
             .twitter{
@@ -280,9 +282,11 @@ header{
                 font-size: 50px;
                 border: 1px solid #000;
                 background: #1da1f2;
-                color: #fff;
                 margin-right: 50px;
                 margin-left: 50px;
+                a{
+                    color: #fff;
+                }
             }
 
             .whatsapp{
@@ -292,9 +296,11 @@ header{
                 font-size: 50px;
                 border: 1px solid #000;
                 background: #25d366;
-                color: #fff;
                 margin-right: 50px;
                 margin-left: 50px;
+                a{
+                color: #fff;
+                }
             }
 
             .gmail{
@@ -304,9 +310,12 @@ header{
                 font-size: 50px;
                 border: 1px solid #000;
                 background: #fff;
-                color: #D44C3D;
                 margin-right: 50px;
                 margin-left: 50px;
+                a{
+                color: #D44C3D;
+
+                }
             }
         }
     }
@@ -325,6 +334,7 @@ header{
             color: #fff;
         }
         .volver{
+            cursor: pointer;
             display: flex;
             p{
                 color: #fff;
