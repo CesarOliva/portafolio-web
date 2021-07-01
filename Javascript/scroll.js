@@ -24,7 +24,7 @@ $(document).ready(function(){
         e.preventDefault();
         $('html, body').animate({
             scrollTop: Trabajos -50
-        }, 800);
+        }, 900);
     })
     var Contacto = $('#contacto').offset().top;
 
@@ -32,14 +32,14 @@ $(document).ready(function(){
         e.preventDefault();
         $('html, body').animate({
             scrollTop: Contacto -50
-        }, 1000);
+        }, 1200);
     })
 
     $('#volver').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
             scrollTop: 0
-        }, 1000);
+        }, 1200);
     })
 
     //medias
