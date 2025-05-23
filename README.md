@@ -22,4 +22,6 @@ Me considero una persona capaz, inteligente y estudiosa. Estoy hambriento de apr
 
 ## Ver en
 
-<a href="https://cesaroliva.github.io/portafolio/">https://cesaroliva.github.io/portafolio/</a>
+Este es mi portafolio anterior que puedes ver en: <a href="https://cesaroliva.github.io/portafolio-web/">https://cesaroliva.github.io/portafolio-web/</a>
+
+Mi portafolio actual es el siguiente: <a href="https://cesaroliva.github.io/portafolio/">https://cesaroliva.github.io/portafolio/</a>
